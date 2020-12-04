@@ -15,8 +15,8 @@ NFL Data Preparation (JohnM): https://www.kaggle.com/jpmiller/nfl-data-preparati
 **1. Theory Crafting** \
 Before I started on any analysis, I leveraged what I knew about football to create theories on what may lead to punt return concussions. It was a rather rudimentary process that hinged on three questions:
 
-    Q1: What causes concussions? A: Hits. \
-    Q2: When would a "hit" take place? A: During an active punt return.\
+    Q1: What causes concussions? A: Hits.
+    Q2: When would a "hit" take place? A: During an active punt return.
     Q3: Can active returns be replaced/reduced? A: Yes; fair catches, touchbacks, no returns
 
 Once I had this framework in mind, I could guide my data analysis. However, before I could begin doing any data analysis I needed some usable data...
