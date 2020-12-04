@@ -4,6 +4,7 @@
 ## Sources
 Kaggle Competition: https://www.kaggle.com/c/NFL-Punt-Analytics-Competition \
 NFL Data Preparation (JohnM): https://www.kaggle.com/jpmiller/nfl-data-preparation
+NFL Punt Analytics (Johnm): https://www.kaggle.com/jpmiller/nfl-punt-analytics/?select=roledscrps.csv
 
 ## Project Start
 **Purpose:** Analyze NFL game data and suggest rules to improve player safety during punt plays \
@@ -36,7 +37,16 @@ To prepare and manipulate the data, I lifted a lot of JohnM's code into my own s
 After I had the data in a usable format, it was time to start analyzing the data with the framework from my theory crafting...
 
 **3. Data Exploration and Analysis** 
+*Disclaimer: Some of my code was copied again from JohnM since I was unfamiliar with using .parq files and had to learn to read them in. Additionally, he performed some additional cleanup on his data before using it that I wanted to replicate before I used the data. Please see his amazing analysis NFL Punt Analytics (source above) for more info.*
 
+Now that I have data in a usable format and a framework in place to guide my analysis, it's time to get to the fun part! 
+The first thing I wanted to find out with my analysis was if return plays really did cause more concussions that other types of plays.
+
+**INSERT IMAGE**
+
+From the graph above, we can see that return plays resulted in concussions way more often than other types of punt plays. Assumption 1 verified!
+
+Now that I know return plays cause the bulk of punt play concussions, is there a way to prevent punts from being returned? Or rather, can other optiones (i.e. fair catch, touchback) be incentivized?
 
 
 **4. Decision Analysis (HOW??)**
